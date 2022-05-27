@@ -1,0 +1,331 @@
+.header {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+  }
+  
+  nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  li{
+      list-style: none;
+  }
+  nav ul li a{
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 22px;
+    color: #070707;
+  }
+  h2 {
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 22px;
+    color: #070707;
+  }
+  
+  .pre-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Gilroy-Bold;
+  }
+  
+  .leng {
+    height: 20px;
+    font-family: Gilroy-Bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+    transform: rotate(-90deg);
+  
+  }
+  
+  .eng {
+    color: #000;
+  }
+  
+  .header-image {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    background: url(bg.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  .about-me {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 506px;
+    background: #F6F6F6;
+  }
+  h4 {
+    text-align: center;
+    font-size: 34px;
+    font-family: Gilroy-Bold;
+  }
+  .about-me-text {
+    width: 50%;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+  }
+  a{
+    text-decoration: none;
+  }
+  .skills-section {
+    height: 459px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Gilroy-Bold;
+  }
+  ul{
+    animation-name: header-block;
+    animation-duration: 3s;
+  }
+  @keyframes header-block{
+    0%{
+      margin-left: -100%;
+    }
+    100%{
+      margin-left: 0%;
+    }
+  }
+  .head-menu p, h1{
+    opacity: 1;
+    animation-name: head-menu;
+    animation-duration: 6s;
+  }
+  @keyframes head-menu{
+    0%{
+      opacity: 0;
+    }
+    50%{
+      opacity: 0.5;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+  .skills-section p{
+    font-size: 18px;
+  }
+  .skilss-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .skill-ps{
+      width: auto;
+      height: 88px;
+      margin: 30px;
+      background: radial-gradient(rgb(21, 21, 48), rgb(1, 1, 15));
+  }
+  .stars img{
+    margin-right: 5% ;
+    margin-top: 5%;
+  }
+  .skill-ai{
+      width: auto;
+      height: 88px;
+      margin: 30px;
+      background: radial-gradient(rgb(66, 25, 1), rgb(29, 11, 0)); 
+  }
+  .skill-ae{
+    width: auto;
+      height: 88px;
+      margin: 30px;
+      background: radial-gradient(rgb(49, 2, 77), rgb(20, 1, 32)); 
+  }
+  .skill-figma{
+    background: url(figma.png);
+    width: 88px;
+      height: 88px;
+      margin: 30px;
+  }
+  .block{
+    font-family: Gilroy-Bold;
+    text-align: center;
+    color: #828282;
+    margin-right: 50px;
+  }
+  .pre-footer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: #F6F6F6;
+    padding-top: 50px;
+  }
+  .pre-footer img{
+    width: 80%;
+    height: 100%;
+  }
+  .pre-footer p{
+    font-size: 18px;
+    font-family: Gilroy-Medium;
+  text-decoration-line: underline;
+  margin-top: 45px;
+  margin-bottom: 96px;
+  }
+  .menu{
+    display: none;
+  }
+  .footer{
+    padding-top: 10%;
+    padding-bottom: 5%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  #button{
+    border-radius: 50px;
+    border: none;
+    padding: 2% 5% 2% 5%;
+    background-color: black;
+    color: #FFFFFF;
+  }
+  .cubs{
+    position: fixed;
+    bottom: 5%;
+    right: -40%;
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    animation-name: cubs;
+    animation-duration: 7s;
+  }
+  .footer p{
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  }
+  .inst{
+    margin-left: 40px;
+    animation-name: inst;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes cubs{
+  0%{
+    left: -83%;
+  }
+  50%{
+    left: 40%;
+  }
+  }
+  @keyframes inst{
+    50%{
+      margin-bottom: 3%;
+    }
+    100%{
+      margin-bottom: 0%;
+    }
+  }
+  .in img{
+    height: 43px;
+    width: 42px;
+  }
+  .be{
+    margin-left: 40px;
+  }
+  .be img{
+  height: 41px;
+  width: 40px;
+  }
+  .ball{
+    height: 41px;
+    width: 40px;
+    margin-left: 40px;
+  }
+  h6{
+    font-family: Gilroy-Medium;
+    color: #828282;
+    font-size: 14px;
+    text-align: center;
+  }
+  @media (max-width: 1000px) {
+    .leng{
+      display: none;
+    }
+    .header-block{
+      display: none;
+    }
+    .pre-header{
+      display: flex;
+      flex-direction: column;
+      width: 40%;
+      align-items:flex-start;
+      margin-right: 0%;
+      
+    }
+    h1{
+      width: 130;
+      margin: 0px;
+    }
+    .header-image{
+      height: 478px;
+      background: url(bg2.png);
+      background-position: center;
+    background-size: contain;
+      background-repeat: no-repeat;
+    }
+    .skills-section{
+      flex-direction: column;
+      height: auto;
+      padding-bottom: 10%;
+      max-width: 50%;
+      padding-left: 25%;
+      padding-right: 25%;
+    }
+    .menu{
+      width: 50%;
+      position: absolute;
+      right: 0%;
+    }
+    .mainmenubtn {
+      background-color: white;
+      transform: rotate(-90deg);
+      font-family: Gilroy-Bold;
+      font-size: 50px;
+      color: rgb(0, 0, 0);
+      border: none;
+      cursor: pointer;
+      padding:20px;
+      margin-top:20px;
+      position: absolute;
+      right: 8%;
+  }
+  .menu {
+      display: inline-block;
+  }
+  .menu-child {
+      display: none;
+      background-color: rgb(233, 233, 233);
+      width: 200px;
+  }
+  .menu-child a {
+      padding: 2px;
+      display: block;
+  }
+  .menu:hover .menu-child {
+      display: block;
+      position: fixed;
+  }
+}
